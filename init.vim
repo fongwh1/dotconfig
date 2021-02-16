@@ -25,3 +25,4 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | exe 'NERDTree' | endi
 " Let quit work as expected if after entering :q the only window left open is NERD Tree itself
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
+source ./shortcut.vim
