@@ -1,0 +1,38 @@
+[user]
+	name = fongwh1
+	email = fongwh1016@gmail.com
+
+[core]
+	autocrlf = input
+        fileMode = false
+        pager = less
+	editor = vim
+
+[alias]
+        st = status
+        ci = commit
+        co = checkout
+        br = branch
+        bl = blame
+        df = diff
+        la = log --graph --decorate --pretty=oneline --abbrev-commit --all
+        pl = pull
+        ps = push
+        lg = log
+        cp = cherry-pick
+        cim = commit -m
+        rss = reset --soft
+        hd = HEAD
+        rss1 = reset --soft HEAD~1
+        rsh1 = reset --hard HEAD~1
+        rsh = reset --hard
+        brd = branch -D
+
+[push]
+	default = matching
+
+
+[credential]
+	helper = store
+[oh-my-zsh]
+	hide-info = 1
